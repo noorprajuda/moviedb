@@ -23,7 +23,11 @@ const Home: NextPage = () => {
     if (scrollHeight - scrollTop === clientHeight) fetchNextPage();
   };
 
-  if (error) return <div>Oh noooooooo something went wrong!</div>;
+  if (error) return   (<div className='w-full h-screen flex flex-col items-center justify-center'>
+  <h1 className='text-2xl'>Oh no, something went wrong!</h1>
+  <p>We're sorry, but we were unable to fetch the list of movies at this time.</p>
+  <p>Please try again later or contact support for assistance.</p>
+</div>)
 
   return (
     <main className='relative h-screen overflow-y-scroll' onScroll={handleScroll}>
