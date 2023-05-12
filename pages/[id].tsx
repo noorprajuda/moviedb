@@ -40,6 +40,7 @@ const Movie: NextPage<Props> = ({ movie, cast, directors }) => (
           imgUrl={actor.profile_path ? IMAGE_BASE_URL + POSTER_SIZE + actor.profile_path : '/no_image.jpg'}
           title={actor.name}
           subtitle={actor.character}
+          vote_average={movie.vote_average}
         />
       ))}
     </Grid>

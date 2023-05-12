@@ -1,45 +1,62 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/api/movies";
-exports.ids = ["pages/api/movies"];
+exports.id = 853;
+exports.ids = [853];
 exports.modules = {
 
-/***/ "(api)/./api/fetchFunctions.ts":
-/*!*******************************!*\
-  !*** ./api/fetchFunctions.ts ***!
-  \*******************************/
+/***/ 4679:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"basicFetch\": () => (/* binding */ basicFetch),\n/* harmony export */   \"fetchMovies\": () => (/* binding */ fetchMovies)\n/* harmony export */ });\nconst basicFetch = async (endpoint)=>{\n    const response = await fetch(endpoint);\n    if (!response.ok) throw new Error(\"Error!\");\n    const data = await response.json();\n    return data;\n};\n// Fetch functions\nconst fetchMovies = async (search = \"\", page = 1)=>{\n    return await basicFetch(`/api/movies?search=${search}&page=${page}`);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9hcGkvZmV0Y2hGdW5jdGlvbnMudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFFTyxNQUFNQSxVQUFVLEdBQUcsT0FBbUJDLFFBQWdCLEdBQTBCO0lBQ3JGLE1BQU1DLFFBQVEsR0FBRyxNQUFNQyxLQUFLLENBQUNGLFFBQVEsQ0FBQztJQUV0QyxJQUFJLENBQUNDLFFBQVEsQ0FBQ0UsRUFBRSxFQUFFLE1BQU0sSUFBSUMsS0FBSyxDQUFDLFFBQVEsQ0FBQyxDQUFDO0lBRTVDLE1BQU1DLElBQUksR0FBRyxNQUFNSixRQUFRLENBQUNLLElBQUksRUFBRTtJQUVsQyxPQUFPRCxJQUFJLENBQUM7QUFDZCxDQUFDLENBQUM7QUFFRixrQkFBa0I7QUFDWCxNQUFNRSxXQUFXLEdBQUcsT0FBT0MsTUFBTSxHQUFHLEVBQUUsRUFBRUMsSUFBSSxHQUFHLENBQUMsR0FBc0I7SUFDM0UsT0FBTyxNQUFNVixVQUFVLENBQVMsQ0FBQyxtQkFBbUIsRUFBRVMsTUFBTSxDQUFDLE1BQU0sRUFBRUMsSUFBSSxDQUFDLENBQUMsQ0FBQyxDQUFDO0FBQy9FLENBQUMsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL01hcnNldGlvIE5vb3JwcmFqdWRhLy4vYXBpL2ZldGNoRnVuY3Rpb25zLnRzPzVmMDQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTW92aWVzIH0gZnJvbSAnLi90eXBlcyc7XG5cbmV4cG9ydCBjb25zdCBiYXNpY0ZldGNoID0gYXN5bmMgPHJldHVyblR5cGU+KGVuZHBvaW50OiBzdHJpbmcpOiBQcm9taXNlPHJldHVyblR5cGU+ID0+IHtcbiAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChlbmRwb2ludCk7XG5cbiAgaWYgKCFyZXNwb25zZS5vaykgdGhyb3cgbmV3IEVycm9yKCdFcnJvciEnKTtcblxuICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xuXG4gIHJldHVybiBkYXRhO1xufTtcblxuLy8gRmV0Y2ggZnVuY3Rpb25zXG5leHBvcnQgY29uc3QgZmV0Y2hNb3ZpZXMgPSBhc3luYyAoc2VhcmNoID0gJycsIHBhZ2UgPSAxKTogUHJvbWlzZTxNb3ZpZXM+ID0+IHtcbiAgcmV0dXJuIGF3YWl0IGJhc2ljRmV0Y2g8TW92aWVzPihgL2FwaS9tb3ZpZXM/c2VhcmNoPSR7c2VhcmNofSZwYWdlPSR7cGFnZX1gKTtcbn07XG4iXSwibmFtZXMiOlsiYmFzaWNGZXRjaCIsImVuZHBvaW50IiwicmVzcG9uc2UiLCJmZXRjaCIsIm9rIiwiRXJyb3IiLCJkYXRhIiwianNvbiIsImZldGNoTW92aWVzIiwic2VhcmNoIiwicGFnZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(api)/./api/fetchFunctions.ts\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
-/***/ }),
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ handler)
+});
 
-/***/ "(api)/./config.ts":
-/*!*******************!*\
-  !*** ./config.ts ***!
-  \*******************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+;// CONCATENATED MODULE: ./config.ts
+// Configuration for TMDB API
+// Read more about the API here: https://developers.themoviedb.org/
+const API_URL = "https://api.themoviedb.org/3/";
+const API_KEY = process.env.API_KEY;
+const SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;
+const POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;
+// For single movie
+const movieUrl = (id)=>`${API_URL}movie/${id}?api_key=${API_KEY}`;
+const creditsUrl = (id)=>`${API_URL}movie/${id}/credits?api_key=${API_KEY}`;
+const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/";
+// Sizes: w300, w780, w1280, original
+const BACKDROP_SIZE = "w1280";
+// w92, w154, w185, w342, w500, w780, original
+const POSTER_SIZE = "w780";
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"API_KEY\": () => (/* binding */ API_KEY),\n/* harmony export */   \"API_URL\": () => (/* binding */ API_URL),\n/* harmony export */   \"BACKDROP_SIZE\": () => (/* binding */ BACKDROP_SIZE),\n/* harmony export */   \"IMAGE_BASE_URL\": () => (/* binding */ IMAGE_BASE_URL),\n/* harmony export */   \"POPULAR_BASE_URL\": () => (/* binding */ POPULAR_BASE_URL),\n/* harmony export */   \"POSTER_SIZE\": () => (/* binding */ POSTER_SIZE),\n/* harmony export */   \"SEARCH_BASE_URL\": () => (/* binding */ SEARCH_BASE_URL),\n/* harmony export */   \"creditsUrl\": () => (/* binding */ creditsUrl),\n/* harmony export */   \"movieUrl\": () => (/* binding */ movieUrl)\n/* harmony export */ });\n// Configuration for TMDB API\n// Read more about the API here: https://developers.themoviedb.org/\nconst API_URL = \"https://api.themoviedb.org/3/\";\nconst API_KEY = process.env.API_KEY;\nconst SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;\nconst POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;\n// For single movie\nconst movieUrl = (id)=>`${API_URL}movie/${id}?api_key=${API_KEY}`;\nconst creditsUrl = (id)=>`${API_URL}movie/${id}/credits?api_key=${API_KEY}`;\nconst IMAGE_BASE_URL = \"http://image.tmdb.org/t/p/\";\n// Sizes: w300, w780, w1280, original\nconst BACKDROP_SIZE = \"w1280\";\n// w92, w154, w185, w342, w500, w780, original\nconst POSTER_SIZE = \"w780\";\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9jb25maWcudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEsNkJBQTZCO0FBQzdCLG1FQUFtRTtBQUVuRSxNQUFNQSxPQUFPLEdBQVcsK0JBQStCO0FBQ3ZELE1BQU1DLE9BQU8sR0FBdUJDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDRixPQUFPO0FBRXZELE1BQU1HLGVBQWUsR0FBVyxDQUFDLEVBQUVKLE9BQU8sQ0FBQyxxQkFBcUIsRUFBRUMsT0FBTyxDQUFDLHNCQUFzQixDQUFDO0FBQ2pHLE1BQU1JLGdCQUFnQixHQUFXLENBQUMsRUFBRUwsT0FBTyxDQUFDLHNCQUFzQixFQUFFQyxPQUFPLENBQUMsZUFBZSxDQUFDO0FBQzVGLG1CQUFtQjtBQUNuQixNQUFNSyxRQUFRLEdBQUcsQ0FBQ0MsRUFBVyxHQUFLLENBQUMsRUFBRVAsT0FBTyxDQUFDLE1BQU0sRUFBRU8sRUFBRSxDQUFDLFNBQVMsRUFBRU4sT0FBTyxDQUFDLENBQUM7QUFDNUUsTUFBTU8sVUFBVSxHQUFHLENBQUNELEVBQVcsR0FBSyxDQUFDLEVBQUVQLE9BQU8sQ0FBQyxNQUFNLEVBQUVPLEVBQUUsQ0FBQyxpQkFBaUIsRUFBRU4sT0FBTyxDQUFDLENBQUM7QUFFdEYsTUFBTVEsY0FBYyxHQUFXLDRCQUE0QjtBQUMzRCxxQ0FBcUM7QUFDckMsTUFBTUMsYUFBYSxHQUFXLE9BQU87QUFDckMsOENBQThDO0FBQzlDLE1BQU1DLFdBQVcsR0FBVyxNQUFNO0FBWWhDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vTWFyc2V0aW8gTm9vcnByYWp1ZGEvLi9jb25maWcudHM/MjY5ZiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBDb25maWd1cmF0aW9uIGZvciBUTURCIEFQSVxuLy8gUmVhZCBtb3JlIGFib3V0IHRoZSBBUEkgaGVyZTogaHR0cHM6Ly9kZXZlbG9wZXJzLnRoZW1vdmllZGIub3JnL1xuXG5jb25zdCBBUElfVVJMOiBzdHJpbmcgPSAnaHR0cHM6Ly9hcGkudGhlbW92aWVkYi5vcmcvMy8nO1xuY29uc3QgQVBJX0tFWTogc3RyaW5nIHwgdW5kZWZpbmVkID0gcHJvY2Vzcy5lbnYuQVBJX0tFWTtcblxuY29uc3QgU0VBUkNIX0JBU0VfVVJMOiBzdHJpbmcgPSBgJHtBUElfVVJMfXNlYXJjaC9tb3ZpZT9hcGlfa2V5PSR7QVBJX0tFWX0mbGFuZ3VhZ2U9ZW4tVVMmcXVlcnk9YDtcbmNvbnN0IFBPUFVMQVJfQkFTRV9VUkw6IHN0cmluZyA9IGAke0FQSV9VUkx9bW92aWUvcG9wdWxhcj9hcGlfa2V5PSR7QVBJX0tFWX0mbGFuZ3VhZ2U9ZW4tVVNgO1xuLy8gRm9yIHNpbmdsZSBtb3ZpZVxuY29uc3QgbW92aWVVcmwgPSAoaWQ/OiBzdHJpbmcpID0+IGAke0FQSV9VUkx9bW92aWUvJHtpZH0/YXBpX2tleT0ke0FQSV9LRVl9YDtcbmNvbnN0IGNyZWRpdHNVcmwgPSAoaWQ/OiBzdHJpbmcpID0+IGAke0FQSV9VUkx9bW92aWUvJHtpZH0vY3JlZGl0cz9hcGlfa2V5PSR7QVBJX0tFWX1gO1xuXG5jb25zdCBJTUFHRV9CQVNFX1VSTDogc3RyaW5nID0gJ2h0dHA6Ly9pbWFnZS50bWRiLm9yZy90L3AvJztcbi8vIFNpemVzOiB3MzAwLCB3NzgwLCB3MTI4MCwgb3JpZ2luYWxcbmNvbnN0IEJBQ0tEUk9QX1NJWkU6IHN0cmluZyA9ICd3MTI4MCc7XG4vLyB3OTIsIHcxNTQsIHcxODUsIHczNDIsIHc1MDAsIHc3ODAsIG9yaWdpbmFsXG5jb25zdCBQT1NURVJfU0laRTogc3RyaW5nID0gJ3c3ODAnO1xuXG5leHBvcnQge1xuICBTRUFSQ0hfQkFTRV9VUkwsXG4gIFBPUFVMQVJfQkFTRV9VUkwsXG4gIEFQSV9VUkwsXG4gIEFQSV9LRVksXG4gIElNQUdFX0JBU0VfVVJMLFxuICBCQUNLRFJPUF9TSVpFLFxuICBQT1NURVJfU0laRSxcbiAgbW92aWVVcmwsXG4gIGNyZWRpdHNVcmxcbn07XG4iXSwibmFtZXMiOlsiQVBJX1VSTCIsIkFQSV9LRVkiLCJwcm9jZXNzIiwiZW52IiwiU0VBUkNIX0JBU0VfVVJMIiwiUE9QVUxBUl9CQVNFX1VSTCIsIm1vdmllVXJsIiwiaWQiLCJjcmVkaXRzVXJsIiwiSU1BR0VfQkFTRV9VUkwiLCJCQUNLRFJPUF9TSVpFIiwiUE9TVEVSX1NJWkUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./config.ts\n");
 
-/***/ }),
+;// CONCATENATED MODULE: ./api/fetchFunctions.ts
+const basicFetch = async (endpoint)=>{
+    const response = await fetch(endpoint);
+    if (!response.ok) throw new Error("Error!");
+    const data = await response.json();
+    return data;
+};
+// Fetch functions
+const fetchMovies = async (search = "", page = 1)=>{
+    return await basicFetch(`/api/movies?search=${search}&page=${page}`);
+};
 
-/***/ "(api)/./pages/api/movies.ts":
-/*!*****************************!*\
-  !*** ./pages/api/movies.ts ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+;// CONCATENATED MODULE: ./pages/api/movies.ts
+// API Urls
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../config */ \"(api)/./config.ts\");\n/* harmony import */ var _api_fetchFunctions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../api/fetchFunctions */ \"(api)/./api/fetchFunctions.ts\");\n// API Urls\n\n// Basic fetch function\n\nasync function handler(req, res) {\n    const { page , search  } = req.query; // Grab search params\n    const endpoint = search ? `${_config__WEBPACK_IMPORTED_MODULE_0__.SEARCH_BASE_URL}${search}&page=${page}` : `${_config__WEBPACK_IMPORTED_MODULE_0__.POPULAR_BASE_URL}&page=${page}`;\n    const data = await (0,_api_fetchFunctions__WEBPACK_IMPORTED_MODULE_1__.basicFetch)(endpoint);\n    res.status(200).json(data);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvbW92aWVzLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLFdBQVc7QUFDc0Q7QUFDakUsdUJBQXVCO0FBQytCO0FBS3ZDLGVBQWVHLE9BQU8sQ0FBQ0MsR0FBbUIsRUFBRUMsR0FBNEIsRUFBRTtJQUN2RixNQUFNLEVBQUVDLElBQUksR0FBRUMsTUFBTSxHQUFFLEdBQUdILEdBQUcsQ0FBQ0ksS0FBSyxFQUFFLHFCQUFxQjtJQUV6RCxNQUFNQyxRQUFRLEdBQUdGLE1BQU0sR0FBRyxDQUFDLEVBQUVQLG9EQUFlLENBQUMsRUFBRU8sTUFBTSxDQUFDLE1BQU0sRUFBRUQsSUFBSSxDQUFDLENBQUMsR0FBRyxDQUFDLEVBQUVMLHFEQUFnQixDQUFDLE1BQU0sRUFBRUssSUFBSSxDQUFDLENBQUM7SUFFekcsTUFBTUksSUFBSSxHQUFHLE1BQU1SLCtEQUFVLENBQVNPLFFBQVEsQ0FBQztJQUUvQ0osR0FBRyxDQUFDTSxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUNDLElBQUksQ0FBQ0YsSUFBSSxDQUFDLENBQUM7QUFDN0IsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL01hcnNldGlvIE5vb3JwcmFqdWRhLy4vcGFnZXMvYXBpL21vdmllcy50cz9hNjVhIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEFQSSBVcmxzXG5pbXBvcnQgeyBTRUFSQ0hfQkFTRV9VUkwsIFBPUFVMQVJfQkFTRV9VUkwgfSBmcm9tICcuLi8uLi9jb25maWcnO1xuLy8gQmFzaWMgZmV0Y2ggZnVuY3Rpb25cbmltcG9ydCB7IGJhc2ljRmV0Y2ggfSBmcm9tICcuLi8uLi9hcGkvZmV0Y2hGdW5jdGlvbnMnO1xuLy8gVHlwZXNcbmltcG9ydCB0eXBlIHsgTmV4dEFwaVJlcXVlc3QsIE5leHRBcGlSZXNwb25zZSB9IGZyb20gJ25leHQnO1xuaW1wb3J0IHR5cGUgeyBNb3ZpZXMgfSBmcm9tICcuLi8uLi9hcGkvdHlwZXMnO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKHJlcTogTmV4dEFwaVJlcXVlc3QsIHJlczogTmV4dEFwaVJlc3BvbnNlPE1vdmllcz4pIHtcbiAgY29uc3QgeyBwYWdlLCBzZWFyY2ggfSA9IHJlcS5xdWVyeTsgLy8gR3JhYiBzZWFyY2ggcGFyYW1zXG5cbiAgY29uc3QgZW5kcG9pbnQgPSBzZWFyY2ggPyBgJHtTRUFSQ0hfQkFTRV9VUkx9JHtzZWFyY2h9JnBhZ2U9JHtwYWdlfWAgOiBgJHtQT1BVTEFSX0JBU0VfVVJMfSZwYWdlPSR7cGFnZX1gO1xuXG4gIGNvbnN0IGRhdGEgPSBhd2FpdCBiYXNpY0ZldGNoPE1vdmllcz4oZW5kcG9pbnQpO1xuXG4gIHJlcy5zdGF0dXMoMjAwKS5qc29uKGRhdGEpO1xufVxuIl0sIm5hbWVzIjpbIlNFQVJDSF9CQVNFX1VSTCIsIlBPUFVMQVJfQkFTRV9VUkwiLCJiYXNpY0ZldGNoIiwiaGFuZGxlciIsInJlcSIsInJlcyIsInBhZ2UiLCJzZWFyY2giLCJxdWVyeSIsImVuZHBvaW50IiwiZGF0YSIsInN0YXR1cyIsImpzb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/movies.ts\n");
+// Basic fetch function
+
+async function handler(req, res) {
+    const { page , search  } = req.query; // Grab search params
+    const endpoint = search ? `${SEARCH_BASE_URL}${search}&page=${page}` : `${POPULAR_BASE_URL}&page=${page}`;
+    const data = await basicFetch(endpoint);
+    res.status(200).json(data);
+}
+
 
 /***/ })
 
@@ -50,7 +67,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/movies.ts"));
+var __webpack_exports__ = (__webpack_exec__(4679));
 module.exports = __webpack_exports__;
 
 })();
