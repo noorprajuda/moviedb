@@ -47,4 +47,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for mor
 
 ## Hosted version
 
-Please visit https://www.lebahgantengmovie.com
+Please visit https://hammerhead-app-zpjdv.ondigitalocean.app/
+currently is still deploying to https://www.lebahgantengmovie.com (take time)
